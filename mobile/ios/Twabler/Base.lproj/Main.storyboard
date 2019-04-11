@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TurkTurk" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Twabler" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -144,6 +144,17 @@
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="BlurView" destination="RAv-Qa-7XA" id="BpQ-Wq-2Sz"/>
+                        <outlet property="TabBar" destination="StH-HV-tXT" id="uFN-6r-8l3"/>
+                        <outlet property="TabBarAboutButton" destination="ww8-7f-EAb" id="fZf-nk-b9l"/>
+                        <outlet property="TabBarHomeButton" destination="nCw-J1-cEx" id="kDo-Un-s4G"/>
+                        <outlet property="TabBarSettingsButton" destination="qYa-nm-xHB" id="bl3-1D-3Ip"/>
+                        <outlet property="TweetImageView" destination="5nX-Ts-OxK" id="HYy-oX-pqk"/>
+                        <outlet property="TweetImageViewContainer" destination="lMd-lX-Jvc" id="i16-CI-jvD"/>
+                        <outlet property="TweetTableView" destination="shh-Db-LZG" id="czS-gs-Uuu"/>
+                        <outlet property="TweetTableViewCell" destination="7vO-Oj-X4k" id="H0q-aU-9f2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -183,6 +194,9 @@
                                 <state key="normal" title="Forgot Password?">
                                     <color key="titleColor" red="0.093302138150000005" green="0.19873672719999999" blue="0.2736379504" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="ForgotPasswordButton:" destination="lhM-KV-x9k" eventType="touchUpInside" id="Uu1-WX-iTl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhw-ah-gwo">
                                 <rect key="frame" x="15" y="296" width="100" height="34"/>
@@ -195,6 +209,9 @@
                                     <color key="titleColor" red="0.093065880239999996" green="0.20267203449999999" blue="0.27758607270000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="SignUpButton:" destination="lhM-KV-x9k" eventType="touchUpInside" id="tbo-Fr-vyh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.60175728797912598" green="0.66988676786422729" blue="0.72414737939834595" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -218,6 +235,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jZm-J0-u71" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="lhM-KV-x9k" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="134.40000000000001" y="-564.01799100449784"/>
         </scene>
