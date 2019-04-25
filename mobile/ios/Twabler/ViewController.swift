@@ -15,9 +15,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var TweetImageViewContainer: UIView!
     @IBOutlet weak var TweetImageView: UIImageView!
     
-    @IBOutlet weak var TweetTableView: UITableView!
-    @IBOutlet weak var TweetTableViewCell: UITableViewCell!
-    
     @IBOutlet weak var TabBar: UITabBar!
     @IBOutlet weak var TabBarHomeButton: UITabBarItem!
     @IBOutlet weak var TabBarAboutButton: UITabBarItem!
