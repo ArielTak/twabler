@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ContainerVC.swift
 //  Twabler
 //
 //  Created by Ariel Takvam on 2/13/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ContainerVC: UIViewController {
     
     // MARK: Properties
     

@@ -25,8 +25,9 @@
 		B0DBDF5A22E95C7200D0D13F /* icons-hamburger-menu-white-60.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DBDF5722E95C7100D0D13F /* icons-hamburger-menu-white-60.png */; };
 		B0DBDF5B22E95C7200D0D13F /* icons-hamburger-menu-white-90.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DBDF5822E95C7100D0D13F /* icons-hamburger-menu-white-90.png */; };
 		B0DBDF5C22E95C7200D0D13F /* icons-hamburger-menu-white-30.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DBDF5922E95C7100D0D13F /* icons-hamburger-menu-white-30.png */; };
+		B0F12C512305028A003CB6EB /* MenuContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F12C502305028A003CB6EB /* MenuContainerVC.swift */; };
 		B0FF3471221519A500E0B644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF3470221519A500E0B644 /* AppDelegate.swift */; };
-		B0FF3473221519A500E0B644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF3472221519A500E0B644 /* ViewController.swift */; };
+		B0FF3473221519A500E0B644 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF3472221519A500E0B644 /* ContainerVC.swift */; };
 		B0FF3476221519A500E0B644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FF3474221519A500E0B644 /* Main.storyboard */; };
 		B0FF3478221519A600E0B644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FF3477221519A600E0B644 /* Assets.xcassets */; };
 		B0FF347B221519A600E0B644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FF3479221519A600E0B644 /* LaunchScreen.storyboard */; };
@@ -70,9 +71,10 @@
 		B0DBDF5722E95C7100D0D13F /* icons-hamburger-menu-white-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-hamburger-menu-white-60.png"; sourceTree = "<group>"; };
 		B0DBDF5822E95C7100D0D13F /* icons-hamburger-menu-white-90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-hamburger-menu-white-90.png"; sourceTree = "<group>"; };
 		B0DBDF5922E95C7100D0D13F /* icons-hamburger-menu-white-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-hamburger-menu-white-30.png"; sourceTree = "<group>"; };
+		B0F12C502305028A003CB6EB /* MenuContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContainerVC.swift; sourceTree = "<group>"; };
 		B0FF346D221519A500E0B644 /* Twabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twabler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FF3470221519A500E0B644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0FF3472221519A500E0B644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0FF3472221519A500E0B644 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		B0FF3475221519A500E0B644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0FF3477221519A600E0B644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0FF347A221519A600E0B644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -159,7 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				B0FF3470221519A500E0B644 /* AppDelegate.swift */,
-				B0FF3472221519A500E0B644 /* ViewController.swift */,
+				B0F12C502305028A003CB6EB /* MenuContainerVC.swift */,
+				B0FF3472221519A500E0B644 /* ContainerVC.swift */,
 				B0FF3474221519A500E0B644 /* Main.storyboard */,
 				B0B5654E22BB3B5000E4D565 /* borderedButton.swift */,
 				B0FF3477221519A600E0B644 /* Assets.xcassets */,
@@ -338,8 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FF3473221519A500E0B644 /* ViewController.swift in Sources */,
+				B0FF3473221519A500E0B644 /* ContainerVC.swift in Sources */,
 				B0B5654F22BB3B5000E4D565 /* borderedButton.swift in Sources */,
+				B0F12C512305028A003CB6EB /* MenuContainerVC.swift in Sources */,
 				B0FF3471221519A500E0B644 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
