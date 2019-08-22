@@ -1,5 +1,5 @@
 //
-//  ContainerVC.swift
+//  LandingVC.swift
 //  Twabler
 //
 //  Created by Ariel Takvam on 2/13/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ContainerVC: UIViewController {
+class LandingVC: UIViewController {
     
     // MARK: Properties
     
@@ -27,7 +27,7 @@ class ContainerVC: UIViewController {
     
     // MARK: Actions
     
-    @IBAction func ForgotPasswordButton(_ sender: UIButton) {
+    @IBAction func LogInButton(_ sender: UIButton) {
     }
     @IBAction func SignUpButton(_ sender: UIButton) {
     }
